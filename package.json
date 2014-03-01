@@ -1,0 +1,19 @@
+{
+  "name": "jstrees",
+  "version": "0.1.0",
+  "description": "A Tetris game made with love and Javascript",
+  "author": {
+    "name": "Ricardo Andrés Bello",
+    "email": "ricardoaandres@me.com",
+    "url": "https://github.com/ricardoaandres"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ricardoaandres/jstrees/issues",
+    "email": "ricardoaandres@me.com"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.2",
+    "grunt-http-server": "0.0.4"
+  }
+}
