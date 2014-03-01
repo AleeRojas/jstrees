@@ -5,14 +5,14 @@ module.exports = function (grunt) {
 
     'http-server': {
       dev: {
-        root: '/app',
+        root: 'app/',
         port: 9000,
         host: "127.0.0.1",
         cache: 300,
         showDir : true,
         autoIndex: true,
         defaultExt: "html",
-        runInBackground: true
+        runInBackground: false
       }
     }
   });
