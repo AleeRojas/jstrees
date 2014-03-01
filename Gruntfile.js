@@ -14,9 +14,20 @@ module.exports = function (grunt) {
         defaultExt: "html",
         runInBackground: false
       }
+    },
+
+    jasmine: {
+      jstrees: {
+        src: 'app/**/*.js',
+        options: {
+          specs: 'specs/*Spec.js',
+          helpers: 'specs/*Helper.js'
+        }
+      }
     }
   });
 
+  grunt.loadNpmTasks('grunt-contrib-jasmine');
   grunt.loadNpmTasks('grunt-http-server');
 
 }
